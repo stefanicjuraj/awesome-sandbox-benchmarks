@@ -16,3 +16,7 @@ Sandbox providers handle the infrastructure, provisioning, and management of san
 - Namespace ([Website](https://namespace.so/) • [Docs](https://namespace.so/docs) • [GitHub](https://github.com/namespacelabs))
 - Runloop ([Website](https://runloop.ai/) • [Docs](https://docs.runloop.ai/docs) • [GitHub](https://github.com/runloopai))
 - Vercel ([Website](https://vercel.com/sandbox) • [Docs](https://vercel.com/docs/vercel-sandbox) • [GitHub](https://github.com/vercel/sandbox))
+
+## Sandbox Benchmarks
+
+Sandbox benchmarks compare providers by measuring how quickly a sandbox is created and provisioned: how quickly the sandbox environment becomes responsive after a sandbox is created.
