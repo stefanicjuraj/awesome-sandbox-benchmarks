@@ -2,6 +2,19 @@
 
 A curated collection of sandbox providers, benchmarks, tools, and resources.
 
+- [Sandbox Providers](#sandbox-providers)
+- [Sandbox Benchmarks](#sandbox-benchmarks)
+  - [Sequential Benchmark](#sequential-benchmark)
+  - [Burst Benchmark](#burst-benchmark)
+  - [Staggered Benchmark](#staggered-benchmark)
+  - [NPM Registry Downloads](#npm-registry-downloads)
+  - [Agent Evaluation](#agent-evaluation)
+  - [Pricing](#pricing)
+    - [CPU](#cpu)
+    - [Memory](#memory)
+    - [Storage](#storage)
+  - [Isolation](#isolation)
+
 ## Sandbox Providers
 
 Sandbox providers handle the infrastructure, provisioning, and management of sandboxes.
