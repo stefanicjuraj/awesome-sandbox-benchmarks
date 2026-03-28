@@ -186,3 +186,22 @@ The storage pricing structure and included capacity for each sandbox provider.
 | Vercel      | Included: 15 GB<br>Overage: 0.08/GB-month                                                      |
 
 > Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
+
+### Isolation
+
+The virtualization technology and infrastructure each provider uses to isolate sandbox environments.
+
+| Provider    | Isolation           |
+| :---------- | :------------------ |
+| Blaxel      | microvm             |
+| Bunnyshell  | firecracker microvm |
+| Cloudflare  | container           |
+| CodeSandbox | microvm             |
+| Daytona     | docker oci          |
+| E2B         | firecracker microvm |
+| Modal       | gvisor              |
+| Namespace   | vm                  |
+| Runloop     | microvm             |
+| Vercel      | firecracker microvm |
+
+> Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
