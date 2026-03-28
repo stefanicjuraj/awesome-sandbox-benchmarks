@@ -4,9 +4,10 @@ A curated collection of sandbox providers, benchmarks, tools, and resources.
 
 - [Sandbox Providers](#sandbox-providers)
 - [Sandbox Benchmarks](#sandbox-benchmarks)
-  - [Sequential Benchmark](#sequential-benchmark)
-  - [Burst Benchmark](#burst-benchmark)
-  - [Staggered Benchmark](#staggered-benchmark)
+  - [Sandbox Creation Benchmark](#sandbox-creation-benchmark)
+    - [Sequential Benchmark](#sequential-benchmark)
+    - [Burst Benchmark](#burst-benchmark)
+    - [Staggered Benchmark](#staggered-benchmark)
   - [NPM Registry Downloads](#npm-registry-downloads)
   - [Agent Evaluation](#agent-evaluation)
   - [Pricing](#pricing)
@@ -34,7 +35,9 @@ Sandbox providers handle the infrastructure, provisioning, and management of san
 
 Sandbox benchmarks compare providers by measuring how quickly a sandbox is created and provisioned: how quickly the sandbox environment becomes responsive after a sandbox is created.
 
-### Sequential Benchmark
+### Sandbox Creation Benchmark
+
+#### Sequential Benchmark
 
 Sandboxes are created one at a time with no concurrency. Each sandbox is provisioned before the next starts.
 
@@ -53,7 +56,7 @@ Sandboxes are created one at a time with no concurrency. Each sandbox is provisi
 
 > Source: _[computesdk.com/benchmarks](https://www.computesdk.com/benchmarks/)_
 
-### Burst Benchmark
+#### Burst Benchmark
 
 Sandboxes are created concurrently.
 
@@ -72,7 +75,7 @@ Sandboxes are created concurrently.
 
 > Source: _[computesdk.com/benchmarks](https://www.computesdk.com/benchmarks/)_
 
-### Staggered Benchmark
+#### Staggered Benchmark
 
 Sandboxes are created with a 200 ms delay between each provision.
 
