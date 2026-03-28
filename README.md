@@ -93,3 +93,20 @@ The number of sandbox package downloads from the NPM registry in the last week.
 | CodeSandbox       | [@codesandbox/sdk](https://www.npmjs.com/package/@codesandbox/sdk)       | 20,297           |
 | Runloop           | [@runloop/api-client](https://www.npmjs.com/package/@runloop/api-client) | 10,718           |
 | Bunnyshell (HopX) | [@hopx-ai/sdk](https://www.npmjs.com/package/@hopx-ai/sdk)               | 1,131            |
+
+### Agent Evaluation
+
+Evaluation of how easily AI agents can get started with sandboxes — fully autonomously.
+
+| Provider    | Time   | Tool Calls | Friction | Errors | Cost  | Docs  | Grade |
+| :---------- | :----- | :--------- | :------- | :----- | :---- | :---- | :---- |
+| E2B         | 43s    | 13         | 1        | 0      | $0.47 | 4/5   | 88 B  |
+| Vercel      | 1m 37s | 19         | 1        | 0      | $1.23 | 4/5   | 81 B  |
+| Daytona     | 2m 8s  | 19         | 1        | 1      | $0.52 | 4/5   | 75 B  |
+| Freestyle   | 2m 33s | 22         | 1        | 0      | $0.96 | 4.5/5 | 75 B  |
+| Cloudflare  | 5m 5s  | 29         | 0        | 1      | $1.66 | 3.5/5 | 69 C  |
+| Blaxel      | 3m 46s | 34         | 1        | 1      | $1.01 | 5/5   | 66 C  |
+| Modal       | 2m 50s | 31         | 1        | 2      | $0.63 | 4/5   | 66 C  |
+| CodeSandbox | 3m 25s | 32         | 2        | 1      | $2.11 | 4/5   | 62 C  |
+
+> Source: _[2027.dev/arena/sandboxes](https://2027.dev/arena/sandboxes)_
