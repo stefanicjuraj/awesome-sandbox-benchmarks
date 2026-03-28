@@ -15,6 +15,7 @@ A curated collection of sandbox providers, benchmarks, tools, and resources.
     - [Memory](#memory)
     - [Storage](#storage)
   - [Isolation](#isolation)
+  - [Security](#security)
 
 ## Sandbox Providers
 
