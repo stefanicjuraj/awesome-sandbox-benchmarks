@@ -81,3 +81,15 @@ Sandboxes are created with a 200 ms delay between each provision.
 ### NPM Registry Downloads
 
 The number of sandbox package downloads from the NPM registry in the last week.
+
+| Provider          | Package                                                                  | Weekly Downloads |
+| :---------------- | :----------------------------------------------------------------------- | :--------------- |
+| E2B               | [e2b](https://www.npmjs.com/package/e2b)                                 | 413,554          |
+| Vercel            | [@vercel/sandbox](https://www.npmjs.com/package/@vercel/sandbox)         | 406,401          |
+| Daytona           | [@daytonaio/sdk](https://www.npmjs.com/package/@daytonaio/sdk)           | 142,458          |
+| Modal             | [modal](https://www.npmjs.com/package/modal)                             | 94,827           |
+| Cloudflare        | [@cloudflare/sandbox](https://www.npmjs.com/package/@cloudflare/sandbox) | 44,931           |
+| Blaxel            | [@blaxel/core](https://www.npmjs.com/package/@blaxel/core)               | 32,561           |
+| CodeSandbox       | [@codesandbox/sdk](https://www.npmjs.com/package/@codesandbox/sdk)       | 20,297           |
+| Runloop           | [@runloop/api-client](https://www.npmjs.com/package/@runloop/api-client) | 10,718           |
+| Bunnyshell (HopX) | [@hopx-ai/sdk](https://www.npmjs.com/package/@hopx-ai/sdk)               | 1,131            |
