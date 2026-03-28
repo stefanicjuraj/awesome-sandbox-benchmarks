@@ -111,6 +111,8 @@ The number of sandbox package downloads from the NPM registry in the last week.
 | Runloop           | [@runloop/api-client](https://www.npmjs.com/package/@runloop/api-client) | 10,718           |
 | Bunnyshell (HopX) | [@hopx-ai/sdk](https://www.npmjs.com/package/@hopx-ai/sdk)               | 1,131            |
 
+> Source: _[npmjs.com](https://www.npmjs.com/)_ • _[npmtrends.com](https://npmtrends.com/@blaxel/core-vs-@cloudflare/sandbox-vs-@codesandbox/sdk-vs-@daytonaio/sdk-vs-@hopx-ai/sdk-vs-@runloop/api-client-vs-@vercel/sandbox-vs-e2b-vs-modal)_
+
 ### Agent Evaluation
 
 Evaluation of how easily AI agents can get started with sandboxes — fully autonomously.
