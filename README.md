@@ -110,3 +110,79 @@ Evaluation of how easily AI agents can get started with sandboxes — fully auto
 | CodeSandbox | 3m 25s | 32         | 2        | 1      | $2.11 | 4/5   | 62 C  |
 
 > Source: _[2027.dev/arena/sandboxes](https://2027.dev/arena/sandboxes)_
+
+### Pricing
+
+The pricing model, estimated hourly cost, and available plans for each sandbox provider.
+
+| Provider    | Pricing model                   | 1 vCPU + 2 GB / hr | Plans                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :---------- | :------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Blaxel      | Per second (vCPU + memory)      | $0.0828            | **Pay As You Go**<br>No monthly fee · 200 credits · No CC<br><br>**Enterprise**<br>CC required                                                                                                                                                                                                                                                                                                                                                         |
+| Bunnyshell  | Per second (vCPU + memory)      | $0.0828            | **Pay As You Go**<br>No monthly fee · 200 credits · No CC                                                                                                                                                                                                                                                                                                                                                                                              |
+| Cloudflare  | Active CPU (10 ms) + memory     | $0.09              | **Workers Free**<br>No monthly fee · No sandboxes on plan · Sandboxes require Workers Paid.<br><br>**Workers Paid**<br>$5/mo · Included memory (GB-hr): 25 · Included disk (GB-hr): 200 · Included vCPU-min: 375 · Sandboxes on plan                                                                                                                                                                                                                   |
+| CodeSandbox | VM credits per hour             | $0.0743            | **Build**<br>No monthly fee · Max concurrent VMs: 10 · Max members: 5 · VM credits (hr/mo): 40 · Max VM spec: 4 vCPU + 8 GB · Max SDK sandboxes/hr: 20<br><br>**Scale**<br>$170/mo · Max concurrent VMs: 250 · Max members: 20 · VM credits (hr/mo): 160 · On-demand ($/hr): 0.1486 · Max VM spec: 16 vCPU + 32 GB · Max SDK sandboxes/hr: 1000<br><br>**Enterprise**<br>Max VM spec: 64 vCPU + 128 GB · Up to 50% off bulk VM credits. SOC 2 Type II. |
+| Daytona     | Per second (vCPU + memory)      | $0.0828            | **Pay As You Go**<br>No monthly fee · 200 credits · No CC · Startup credits ($): 50000                                                                                                                                                                                                                                                                                                                                                                 |
+| E2B         | Per second (vCPU + memory)      | $0.0828            | **Hobby**<br>No monthly fee · 100 credits · No CC · One-time credit · Max session (hr): 1 · Max concurrent sandboxes: 20<br><br>**Pro**<br>$150/mo · No credits · CC required · Max session (hr): 24 · Max concurrent sandboxes: 100<br><br>**Enterprise**<br>CC required                                                                                                                                                                              |
+| Modal       | Per second (vCPU + memory)      | $0.1191            | **Starter**<br>No monthly fee · 30 credits · No CC · Max containers: 100 · Max GPU concurrency: 10<br><br>**Team**<br>$250/mo · 100 credits · CC required · Max containers: 1000 · Max GPU concurrency: 50<br><br>**Enterprise**<br>CC required                                                                                                                                                                                                        |
+| Namespace   | Per minute (bundled unit)       | $0.06              | **Developer**<br>No monthly fee · Billing: pay as you go<br><br>**Team**<br>$100/mo · Unit-minutes included: 100000 · Docker builds included: 1000<br><br>**Business**<br>$250/mo · Unit-minutes included: 250000 · Docker builds included: 2500<br><br>**Enterprise**                                                                                                                                                                                 |
+| Runloop     | Per second (vCPU + memory)      | $0.1584            | **Basic**<br>No monthly fee · 25 credits · Storage included (GB): 100<br><br>**Pro**<br>$250/mo · Storage included (GB): 1000<br><br>**Enterprise**                                                                                                                                                                                                                                                                                                    |
+| Vercel      | Active CPU + provisioned memory | $0.1492            | **Hobby**<br>No monthly fee · No CC · Max session (hr): 0.75 · Max concurrent sandboxes: 10 · Included CPU (hr): 5 · Included memory (GB-hr): 420 · Included network (GB): 20 · Included creations: 5000<br><br>**Pro**<br>$20/mo · 20 credits · CC required · Max session (hr): 5 · Max concurrent sandboxes: 2000<br><br>**Enterprise**<br>CC required · Max session (hr): 5 · Max concurrent sandboxes: 2000                                        |
+
+> Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
+
+#### CPU
+
+The CPU pricing rate and billing unit for each sandbox provider.
+
+| Provider    | CPU rate       | CPU unit      |
+| :---------- | :------------- | :------------ |
+| Blaxel      | -              | -             |
+| Bunnyshell  | 0.000014       | vCPU-sec      |
+| Cloudflare  | 0.00002        | vCPU-sec      |
+| CodeSandbox | -              | -             |
+| Daytona     | 0.000014       | vCPU-sec      |
+| E2B         | 0.000014       | vCPU-sec      |
+| Modal       | 0.00003942     | core-sec      |
+| Namespace   | 0.001 / 0.0015 | unit-min      |
+| Runloop     | 0.00003        | CPU-sec       |
+| Vercel      | 0.128          | active-CPU-hr |
+
+> Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
+
+#### Memory
+
+The memory pricing rate and billing unit for each sandbox provider.
+
+| Provider    | Memory rate | Memory unit |
+| :---------- | :---------- | :---------- |
+| Blaxel      | 0.0000115   | GB-sec      |
+| Bunnyshell  | 0.0000045   | GiB-sec     |
+| Cloudflare  | 0.0000025   | GiB-sec     |
+| CodeSandbox | -           | -           |
+| Daytona     | 0.0000045   | GiB-sec     |
+| E2B         | 0.0000045   | GiB-sec     |
+| Modal       | 0.00000672  | GiB-sec     |
+| Namespace   | -           | -           |
+| Runloop     | 0.000007    | GB-sec      |
+| Vercel      | 0.0106      | GB-hr       |
+
+> Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
+
+#### Storage
+
+The storage pricing structure and included capacity for each sandbox provider.
+
+| Provider    | Storage plans                                                                                  |
+| :---------- | :--------------------------------------------------------------------------------------------- |
+| Blaxel      | Images: 0.045/GB-month<br>Snapshots: 0.2/GB-month<br>Volumes: 0.12/GB-month                    |
+| Bunnyshell  | Disk: 0.00000003/GiB-sec                                                                       |
+| Cloudflare  | Free: 200 GB-hr/mo<br>Disk: 0.00000007/GB-sec<br>Billing: provisioned<br>Persistent: no        |
+| CodeSandbox | Included: 20 GB (per VM)                                                                       |
+| Daytona     | Free: 5 GiB<br>Disk: 0.00000003/GiB-sec                                                        |
+| E2B         | Included: 10 GB                                                                                |
+| Modal       | Overage: 0/GB-month                                                                            |
+| Namespace   | Cache snapshot: 0.002/GB-hr<br>Cache volume: 0.0048/GB-day<br>Container registry: 0.2/GB-month |
+| Runloop     | Free: 100 GB<br>Active: 0.00034236/GB-hr<br>Snapshots: 0.000072/GB-hr                          |
+| Vercel      | Included: 15 GB<br>Overage: 0.08/GB-month                                                      |
+
+> Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
