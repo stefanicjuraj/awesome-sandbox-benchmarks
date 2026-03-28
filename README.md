@@ -221,3 +221,21 @@ The virtualization technology and infrastructure each provider uses to isolate s
 | Vercel      | firecracker microvm |
 
 > Source: _[github.com/computesdk/benchmarks](https://github.com/computesdk/benchmarks)_
+
+### Security
+
+The security of the sandbox provider's package and its dependencies.
+
+| Provider    | Package                                                               | Quality | Malware | Licenses | Vulnerabilities |
+| :---------- | :-------------------------------------------------------------------- | :------ | :------ | :------- | :-------------- |
+| Blaxel      | [@blaxel/core](https://npm.js.com/package/@blaxel/core)               | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| Bunnyshell  | [@hopx-ai/sdk](https://npm.js.com/package/@hopx-ai/sdk)               | `FAIL`  | `PASS`  | `PASS`   | 3 `FAIL`        |
+| Cloudflare  | [@cloudflare/sandbox](https://npm.js.com/package/@cloudflare/sandbox) | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| CodeSandbox | [@codesandbox/sdk](https://npm.js.com/package/@codesandbox/sdk)       | `FAIL`  | `PASS`  | `PASS`   | 3 `FAIL`        |
+| Daytona     | [@daytonaio/sdk](https://npm.js.com/package/@daytonaio/sdk)           | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| E2B         | [e2b](https://npm.js.com/package/e2b)                                 | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| Modal       | [modal](https://npm.js.com/package/modal)                             | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| Runloop     | [@runloop/api-client](https://npm.js.com/package/@runloop/api-client) | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+| Vercel      | [@vercel/sandbox](https://npm.js.com/package/@vercel/sandbox)         | `PASS`  | `PASS`  | `PASS`   | 0 `PASS`        |
+
+> Source: _[secure.software](https://secure.software/)_
