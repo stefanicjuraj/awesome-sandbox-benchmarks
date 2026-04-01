@@ -10,6 +10,7 @@ A curated collection of sandbox providers, benchmarks, tools, and resources.
     - [Staggered Benchmark](#staggered-benchmark)
   - [NPM Registry Downloads](#npm-registry-downloads)
   - [Agent Evaluation](#agent-evaluation)
+  - [Agent Friction Eval](#agent-friction-eval)
   - [Pricing](#pricing)
     - [CPU](#cpu)
     - [Memory](#memory)
@@ -129,6 +130,12 @@ Evaluation of how easily AI agents can get started with sandboxes — fully auto
 | CodeSandbox | 3m 25s | 32         | 2        | 1      | $2.11 | 4/5   | 62 C  |
 
 > Source: _[2027.dev/arena/sandboxes](https://2027.dev/arena/sandboxes)_
+
+## Agent Friction Eval
+
+Benchmark how well agents use cloud sandbox SDKs.
+
+> Source: _[github.com/MDzaja/agent-friction-eval](https://github.com/MDzaja/agent-friction-eval)_
 
 ### Pricing
 
