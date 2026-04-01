@@ -131,7 +131,7 @@ Evaluation of how easily AI agents can get started with sandboxes — fully auto
 
 > Source: _[2027.dev/arena/sandboxes](https://2027.dev/arena/sandboxes)_
 
-## Agent Friction Eval
+### Agent Friction Eval
 
 Benchmark how well agents use cloud sandbox SDKs.
 
