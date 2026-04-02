@@ -21,7 +21,7 @@ Sandbox providers handle the infrastructure, provisioning, and management of san
 
 ## Sandbox Benchmarks
 
-Sandbox benchmarks compare providers by measuring how quickly a sandbox is created and provisioned: how quickly the sandbox environment becomes responsive after a sandbox is created.
+Sandbox benchmarks compare providers by measuring how quickly a sandbox is created and provisioned, the number of sandbox package downloads from the NPM registry, how easily autonomous agents can get started with sandboxes, how well agents use cloud sandbox SDKs, scores for sandbox developer tools used with AI coding agents, pricing, isolation, and package security.
 
 - [Sandbox Creation Benchmark](#sandbox-creation-benchmark)
   - [Sequential](#sequential-benchmark)
