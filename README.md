@@ -23,18 +23,18 @@ A curated collection of sandbox providers, benchmarks, tools, and resources.
 
 Sandbox providers handle the infrastructure, provisioning, and management of sandboxes.
 
-| Provider          | Website                                                   | Docs                                                                            | GitHub                                                                              |
-| :---------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
-| Blaxel            | [blaxel.ai](https://blaxel.ai/)                           | [docs.blaxel.ai](https://docs.blaxel.ai/)                                       | [blaxel-ai](https://github.com/blaxel-ai)                                           |
-| Bunnyshell (HopX) | [hopx.ai](https://hopx.ai/)                               | [docs.hopx.ai](https://docs.hopx.ai/)                                           | [bunnyshell](https://github.com/bunnyshell)                                         |
-| Cloudflare        | [sandbox.cloudflare.com](https://sandbox.cloudflare.com/) | [developers.cloudflare.com/sandbox](https://developers.cloudflare.com/sandbox/) | [cloudflare/sandbox-sdk](https://github.com/cloudflare/sandbox-sdk)                 |
-| CodeSandbox       | [codesandbox.io](https://codesandbox.io/)                 | [codesandbox.io/docs](https://codesandbox.io/docs)                              | [codesandbox/codesandbox-client](https://github.com/codesandbox/codesandbox-client) |
-| Daytona           | [daytona.io](https://www.daytona.io/)                     | [daytona.io/docs](https://www.daytona.io/docs)                                  | [daytonaio/daytona](https://github.com/daytonaio/daytona)                           |
-| E2B               | [e2b.dev](https://e2b.dev/)                               | [e2b.dev/docs](https://e2b.dev/docs)                                            | [e2b-dev](https://github.com/e2b-dev/E2B)                                           |
-| Modal             | [modal.com](https://modal.com/)                           | [modal.com/docs](https://modal.com/docs)                                        | [modal-labs](https://github.com/modal-labs)                                         |
-| Namespace         | [namespace.so](https://namespace.so/)                     | [namespace.so/docs](https://namespace.so/docs)                                  | [namespacelabs](https://github.com/namespacelabs)                                   |
-| Runloop           | [runloop.ai](https://runloop.ai/)                         | [docs.runloop.ai/docs](https://docs.runloop.ai/docs)                            | [runloopai](https://github.com/runloopai)                                           |
-| Vercel            | [vercel.com/sandbox](https://vercel.com/sandbox)          | [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox)        | [vercel/sandbox](https://github.com/vercel/sandbox)                                 |
+| Provider          | Website                                                   | Docs                                                                            | GitHub                                              |
+| :---------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------- |
+| Blaxel            | [blaxel.ai](https://blaxel.ai/)                           | [docs.blaxel.ai](https://docs.blaxel.ai/)                                       | [blaxel-ai](https://github.com/blaxel-ai)           |
+| Bunnyshell (HopX) | [hopx.ai](https://hopx.ai/)                               | [docs.hopx.ai](https://docs.hopx.ai/)                                           | [bunnyshell](https://github.com/bunnyshell)         |
+| Cloudflare        | [sandbox.cloudflare.com](https://sandbox.cloudflare.com/) | [developers.cloudflare.com/sandbox](https://developers.cloudflare.com/sandbox/) | [cloudflare](https://github.com/cloudflare)         |
+| CodeSandbox       | [codesandbox.io](https://codesandbox.io/)                 | [codesandbox.io/docs](https://codesandbox.io/docs)                              | [codesandbox](https://github.com/codesandbox)       |
+| Daytona           | [daytona.io](https://www.daytona.io/)                     | [daytona.io/docs](https://www.daytona.io/docs)                                  | [daytonaio](https://github.com/daytonaio)           |
+| E2B               | [e2b.dev](https://e2b.dev/)                               | [e2b.dev/docs](https://e2b.dev/docs)                                            | [e2b-dev](https://github.com/e2b-dev)               |
+| Modal             | [modal.com](https://modal.com/)                           | [modal.com/docs](https://modal.com/docs)                                        | [modal-labs](https://github.com/modal-labs)         |
+| Namespace         | [namespace.so](https://namespace.so/)                     | [namespace.so/docs](https://namespace.so/docs)                                  | [namespacelabs](https://github.com/namespacelabs)   |
+| Runloop           | [runloop.ai](https://runloop.ai/)                         | [docs.runloop.ai/docs](https://docs.runloop.ai/docs)                            | [runloopai](https://github.com/runloopai)           |
+| Vercel            | [vercel.com/sandbox](https://vercel.com/sandbox)          | [vercel.com/docs/vercel-sandbox](https://vercel.com/docs/vercel-sandbox)        | [vercel/sandbox](https://github.com/vercel/sandbox) |
 
 ## Sandbox Benchmarks
 
