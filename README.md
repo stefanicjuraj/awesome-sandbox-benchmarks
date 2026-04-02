@@ -2,23 +2,6 @@
 
 A curated collection of sandbox providers, benchmarks, tools, and resources.
 
-- [Sandbox Providers](#sandbox-providers)
-- [Sandbox Benchmarks](#sandbox-benchmarks)
-  - [Sandbox Creation Benchmark](#sandbox-creation-benchmark)
-    - [Sequential Benchmark](#sequential-benchmark)
-    - [Burst Benchmark](#burst-benchmark)
-    - [Staggered Benchmark](#staggered-benchmark)
-  - [NPM Registry Downloads](#npm-registry-downloads)
-  - [Agent Evaluation](#agent-evaluation)
-  - [Agent Friction Evaluation](#agent-friction-evaluation)
-  - [Devtool Arena](#devtool-arena)
-  - [Pricing](#pricing)
-    - [CPU](#cpu)
-    - [Memory](#memory)
-    - [Storage](#storage)
-  - [Isolation](#isolation)
-  - [Security](#security)
-
 ## Sandbox Providers
 
 Sandbox providers handle the infrastructure, provisioning, and management of sandboxes.
@@ -39,6 +22,21 @@ Sandbox providers handle the infrastructure, provisioning, and management of san
 ## Sandbox Benchmarks
 
 Sandbox benchmarks compare providers by measuring how quickly a sandbox is created and provisioned: how quickly the sandbox environment becomes responsive after a sandbox is created.
+
+- [Sandbox Creation Benchmark](#sandbox-creation-benchmark)
+  - [Sequential](#sequential-benchmark)
+  - [Burst](#burst-benchmark)
+  - [Staggered](#staggered-benchmark)
+- [NPM Registry Downloads](#npm-registry-downloads)
+- [Agent Evaluation](#agent-evaluation)
+- [Agent Friction Evaluation](#agent-friction-evaluation)
+- [Devtool Arena](#devtool-arena)
+- [Pricing](#pricing)
+  - [CPU](#cpu)
+  - [Memory](#memory)
+  - [Storage](#storage)
+- [Isolation](#isolation)
+- [Security](#security)
 
 ### Sandbox Creation Benchmark
 
