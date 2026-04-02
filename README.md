@@ -11,6 +11,7 @@ A curated collection of sandbox providers, benchmarks, tools, and resources.
   - [NPM Registry Downloads](#npm-registry-downloads)
   - [Agent Evaluation](#agent-evaluation)
   - [Agent Friction Evaluation](#agent-friction-evaluation)
+  - [Devtool Arena](#devtool-arena)
   - [Pricing](#pricing)
     - [CPU](#cpu)
     - [Memory](#memory)
@@ -136,6 +137,21 @@ Evaluation of how easily AI agents can get started with sandboxes — fully auto
 Benchmark how well agents use cloud sandbox SDKs.
 
 > Source: _[github.com/MDzaja/agent-friction-eval](https://github.com/MDzaja/agent-friction-eval)_
+
+### Devtool Arena
+
+Benchmark developer tools for AI coding agents across auth, inference, voice, and more.
+
+| Provider           | Score | Grade | Eval | Discovery | Cost  | Calls | Errors | Time   | C7  | llms | MCP | SDK | API | Skills | CLI |
+| :----------------- | ----: | :---: | ---: | --------: | :---- | ----: | -----: | :----- | :-: | :--: | :-: | :-: | :-: | :----: | :-: |
+| Vercel             |    86 |   B   |   80 |       100 | $0.06 |     3 |      0 | 55s    |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✓    |  ✓  |
+| Cloudflare Workers |    77 |   B   |   74 |        86 | $0.08 |     3 |      0 | 1m 53s |  ✓  |  ✓   |  ✓  |  ✓  |  ✗  |   ✓    |  ✓  |
+| E2B                |    77 |   B   |   68 |       100 | $0.18 |    14 |      5 | 1m 47s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✓    |  ✓  |
+| Daytona            |    77 |   B   |   74 |        86 | $0.08 |     3 |      0 | 1m 20s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
+| Fly.io             |    68 |   C   |   67 |        71 | $0.19 |     8 |      1 | 2m 36s |  ✓  |  ✗   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
+| Modal              |    46 |   D   |   36 |        71 | $0.13 |     8 |      1 | 1m 18s |  ✓  |  ✓   |  ✗  |  ✓  |  ✗  |   ✓    |  ✓  |
+
+> Source: _[usesapient.com/leaderboard](https://www.usesapient.com/leaderboard)_
 
 ### Pricing
 
