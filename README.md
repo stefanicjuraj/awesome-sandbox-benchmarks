@@ -46,16 +46,16 @@ Sandboxes are created one at a time with no concurrency. Each sandbox is provisi
 
 | Provider    | Median TTI      | P95 TTI      | P99 TTI      | Success Rate |
 | :---------- | :-------------- | :----------- | :----------- | :----------- |
-| Daytona     | 117 ms          | 292 ms       | 301 ms       | 100%         |
-| E2B         | 419 ms          | 709 ms       | 856 ms       | 100%         |
-| Blaxel      | 469 ms          | 548 ms       | 593 ms       | 100%         |
-| Bunnyshell  | 1072 ms         | 1386 ms      | 1451 ms      | 98%          |
-| Cloudflare  | 1711 ms         | 2308 ms      | 2560 ms      | 100%         |
-| Vercel      | 1741 ms         | 1923 ms      | 2001 ms      | 100%         |
-| Modal       | 1858 ms         | 2366 ms      | 2582 ms      | 100%         |
-| Runloop     | 1897 ms         | 2007 ms      | 2156 ms      | 100%         |
-| Namespace   | 2085 ms         | 2874 ms      | 3485 ms      | 100%         |
-| CodeSandbox | 2337 ms         | 2687 ms      | 2778 ms      | 99%          |
+| Daytona     | 102 ms          | 224 ms       | 293 ms       | 100%         |
+| E2B         | 448 ms          | 678 ms       | 823 ms       | 100%         |
+| Blaxel      | 475 ms          | 553 ms       | 606 ms       | 100%         |
+| Bunnyshell  | 1026 ms         | 1326 ms      | 1356 ms      | 100%         |
+| Cloudflare  | 1619 ms         | 2184 ms      | 2774 ms      | 100%         |
+| Vercel      | 1718 ms         | 1874 ms      | 1904 ms      | 100%         |
+| Namespace   | 1740 ms         | 1941 ms      | 2034 ms      | 100%         |
+| Modal       | 1850 ms         | 2956 ms      | 4191 ms      | 100%         |
+| Runloop     | 1889 ms         | 1999 ms      | 2005 ms      | 100%         |
+| CodeSandbox | 2297 ms         | 2529 ms      | 2590 ms      | 48%          |
 
 > Source: _[computesdk.com/benchmarks](https://www.computesdk.com/benchmarks/)_
 
@@ -65,16 +65,16 @@ Sandboxes are created concurrently.
 
 | Provider    | Median TTI      | P95 TTI      | P99 TTI      | Success Rate |
 | :---------- | :-------------- | :----------- | :----------- | :----------- |
-| Daytona     | 303 ms          | 438 ms       | 480 ms       | 100%         |
-| E2B         | 594 ms          | 829 ms       | 916 ms       | 100%         |
-| Cloudflare  | 1881 ms         | 2437 ms      | 2556 ms      | 100%         |
-| Vercel      | 1921 ms         | 2126 ms      | 2140 ms      | 100%         |
-| Modal       | 2265 ms         | 2891 ms      | 5570 ms      | 100%         |
-| Namespace   | 2694 ms         | 3343 ms      | 3452 ms      | 100%         |
-| Blaxel      | 3009 ms         | 5229 ms      | 5364 ms      | 100%         |
-| Runloop     | 4738 ms         | 8729 ms      | 9007 ms      | 100%         |
-| CodeSandbox | 7542 ms         | 39439 ms     | 42367 ms     | 74%          |
-| Bunnyshell  | 16973 ms        | 17451 ms     | 17538 ms     | 99%          |
+| Daytona     | 242 ms          | 295 ms       | 306 ms       | 100%         |
+| E2B         | 651 ms          | 911 ms       | 1098 ms      | 100%         |
+| Cloudflare  | 1843 ms         | 2308 ms      | 2598 ms      | 100%         |
+| Vercel      | 1957 ms         | 2271 ms      | 2337 ms      | 100%         |
+| Namespace   | 2056 ms         | 2310 ms      | 2397 ms      | 100%         |
+| Modal       | 2281 ms         | 2752 ms      | 2966 ms      | 100%         |
+| Blaxel      | 3888 ms         | 7302 ms      | 7704 ms      | 100%         |
+| Runloop     | 5696 ms         | 12436 ms     | 14785 ms     | 100%         |
+| CodeSandbox | 6215 ms         | 8322 ms      | 8553 ms      | 52%          |
+| Bunnyshell  | 14231 ms        | 14835 ms     | 14870 ms     | 98%          |
 
 > Source: _[computesdk.com/benchmarks](https://www.computesdk.com/benchmarks/)_
 
@@ -84,16 +84,16 @@ Sandboxes are created with a 200 ms delay between each provision.
 
 | Provider    | Median TTI      | P95 TTI      | P99 TTI      | Success Rate |
 | :---------- | :-------------- | :----------- | :----------- | :----------- |
-| Daytona     | 112 ms          | 285 ms       | 293 ms       | 100%         |
-| E2B         | 391 ms          | 650 ms       | 718 ms       | 100%         |
-| Blaxel      | 510 ms          | 617 ms       | 680 ms       | 100%         |
-| Bunnyshell  | 1341 ms         | 2748 ms      | 3159 ms      | 96%          |
-| Vercel      | 1704 ms         | 1846 ms      | 1870 ms      | 100%         |
-| Cloudflare  | 1784 ms         | 2186 ms      | 2361 ms      | 100%         |
-| Modal       | 1884 ms         | 2206 ms      | 2297 ms      | 100%         |
-| Runloop     | 1922 ms         | 2160 ms      | 2308 ms      | 100%         |
-| Namespace   | 2294 ms         | 2767 ms      | 3108 ms      | 100%         |
-| CodeSandbox | 9958 ms         | 29596 ms     | 30043 ms     | 99%          |
+| Daytona     | 104 ms          | 273 ms       | 284 ms       | 100%         |
+| E2B         | 398 ms          | 850 ms       | 894 ms       | 100%         |
+| Blaxel      | 501 ms          | 696 ms       | 808 ms       | 100%         |
+| Bunnyshell  | 1103 ms         | 2226 ms      | 2244 ms      | 97%          |
+| Cloudflare  | 1573 ms         | 2073 ms      | 2452 ms      | 100%         |
+| Vercel      | 1722 ms         | 1857 ms      | 1915 ms      | 100%         |
+| Namespace   | 1732 ms         | 1893 ms      | 1951 ms      | 100%         |
+| Modal       | 1905 ms         | 2462 ms      | 2879 ms      | 100%         |
+| Runloop     | 1939 ms         | 2800 ms      | 3004 ms      | 100%         |
+| CodeSandbox | 2611 ms         | 2907 ms      | 2950 ms      | 45%          |
 
 > Source: _[computesdk.com/benchmarks](https://www.computesdk.com/benchmarks/)_
 
