@@ -142,14 +142,14 @@ Benchmark how well agents use cloud sandbox SDKs.
 
 Benchmark developer tools for AI coding agents across auth, inference, voice, and more.
 
-| Provider           | Score | Grade | Eval | Discovery | Cost  | Calls | Errors | Time   | C7  | llms | MCP | SDK | API | Skills | CLI |
-| :----------------- | ----: | :---: | ---: | --------: | :---- | ----: | -----: | :----- | :-: | :--: | :-: | :-: | :-: | :----: | :-: |
-| Vercel             |    86 |   B   |   80 |       100 | $0.06 |     3 |      0 | 55s    |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✓    |  ✓  |
-| Cloudflare Workers |    77 |   B   |   74 |        86 | $0.08 |     3 |      0 | 1m 53s |  ✓  |  ✓   |  ✓  |  ✓  |  ✗  |   ✓    |  ✓  |
-| E2B                |    77 |   B   |   68 |       100 | $0.18 |    14 |      5 | 1m 47s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✓    |  ✓  |
-| Daytona            |    77 |   B   |   74 |        86 | $0.08 |     3 |      0 | 1m 20s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
-| Fly.io             |    68 |   C   |   67 |        71 | $0.19 |     8 |      1 | 2m 36s |  ✓  |  ✗   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
-| Modal              |    46 |   D   |   36 |        71 | $0.13 |     8 |      1 | 1m 18s |  ✓  |  ✓   |  ✗  |  ✓  |  ✗  |   ✓    |  ✓  |
+| Provider              | Score | Grade | Eval | Discovery | Cost  | Calls | Errors | Time   | C7  | llms | MCP | SDK | API | Skills | CLI |
+| :-------------------- | ----: | :---: | ---: | --------: | :---- | ----: | -----: | :----- | :-: | :--: | :-: | :-: | :-: | :----: | :-: |
+| Daytona               |    77 |   B   |   74 |        86 | $0.19 |    13 |      8 | 2m 0s  |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
+| E2B                   |    74 |   C   |   70 |        86 | $0.25 |    18 |      7 | 2m 17s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
+| Fly.io                |    66 |   C   |   65 |        71 | $0.57 |    36 |     10 | 4m 54s |  ✓  |  ✓   |  ✗  |  ✓  |  ✗  |   ✓    |  ✓  |
+| Modal                 |    64 |   C   |   67 |        57 | $0.36 |    23 |      7 | 3m 38s |  ✓  |  ✓   |  ✗  |  ✓  |  ✗  |   ✗    |  ✓  |
+| Vercel                |    58 |   C   |   40 |       100 | $0.27 |    26 |      6 | 2m 40s |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
+| Cloudflare Workers\*  |   N/A |  N/A  |  N/A |       N/A | N/A   |   N/A |    N/A | N/A    |  ✓  |  ✓   |  ✓  |  ✓  |  ✓  |   ✗    |  ✓  |
 
 > Source: _[usesapient.com/leaderboard](https://www.usesapient.com/leaderboard)_
 
